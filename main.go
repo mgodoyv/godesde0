@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/mgodoyv/godesde0/files"
+	"github.com/mgodoyv/godesde0/funciones"
 )
 
 func main() {
@@ -36,5 +36,9 @@ func main() {
 	//fmt.Println(ejercicios.TablaMultiplicar())
 	//files.GrabaTabla()
 	//files.SumaTabla()
-	files.LeoArchivo()
+	//files.LeoArchivo()
+	//funciones.Calculos()
+	//funciones.LlamarClousure(5)
+	//funciones.TablasHastaX(10)
+	funciones.Exponencia(2)
 }
