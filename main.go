@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/mgodoyv/godesde0/funciones"
+	"github.com/mgodoyv/godesde0/mapas"
 )
 
 func main() {
@@ -40,5 +40,8 @@ func main() {
 	//funciones.Calculos()
 	//funciones.LlamarClousure(5)
 	//funciones.TablasHastaX(10)
-	funciones.Exponencia(2)
+	//funciones.Exponencia(2)
+	//arreglosslices.MuestroSlices()
+	mapas.MostrarMapas()
+
 }
