@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/mgodoyv/godesde0/webserver"
+	"github.com/mgodoyv/godesde0/middleware"
 	// "github.com/mgodoyv/godesde0/goroutines"
 )
 
@@ -60,6 +60,7 @@ func main() {
 			<-canal1
 		}()
 		fmt.Println("estoy aquí")*/
-	webserver.MiWebserver()
+	//webserver.MiWebserver()
+	middleware.MiMiddleware()
 
 }
