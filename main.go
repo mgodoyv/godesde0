@@ -1,7 +1,10 @@
 package main
 
 import (
-	"github.com/mgodoyv/godesde0/users"
+	"fmt"
+
+	e "github.com/mgodoyv/godesde0/ejer_interfaces"
+	m "github.com/mgodoyv/godesde0/modelos"
 )
 
 func main() {
@@ -43,6 +46,13 @@ func main() {
 	//funciones.Exponencia(2)
 	//arreglosslices.MuestroSlices()
 	//mapas.MostrarMapas()
-	users.AltaUsuario()
+	//users.AltaUsuario()
+	Pedro := new(m.Hombre)
+	Pedro.AddHombre(43, 183.4, 85.3)
+	fmt.Println(Pedro)
+	e.HumanosRespirando(Pedro)
+	fmt.Println(Pedro)
+	Maria := new(m.Mujer)
+	e.HumanosRespirando(Maria)
 
 }
